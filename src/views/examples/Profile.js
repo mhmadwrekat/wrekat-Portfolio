@@ -24,6 +24,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
 import profile from "assets/img/theme/team-4-800x800.jpg";
+import CardsFooter from "components/Footers/CardsFooter.js";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -89,19 +90,20 @@ class Profile extends React.Component {
                           className="mr-4"
                           color="info"
                           href="https://github.com/mhmadwrekat"
-                          onClick={e => e.preventDefault()}
                           size="sm"
-                        >
+                        ><a href='https://github.com/mhmadwrekat'>
                           Connect
+                          </a>
                         </Button>
                         <Button
                           className="float-right"
                           color="default"
                           href="https://www.linkedin.com/in/mohammad-alwrekat"
-                          onClick={e => e.preventDefault()}
                           size="sm"
                         >
-                          Message
+                      <a href='https://www.linkedin.com/in/mohammad-alwrekat'>
+                      Message
+                          </a>    
                         </Button>
                       </div>
                     </Col>
@@ -159,10 +161,16 @@ the excites me the most about tech is it always evolve quickly and new technolog
             </Container>
           </section>
         </main>
-        <SimpleFooter />
+        <CardsFooter />
       </>
     );
   }
 }
 
 export default Profile;
+/*
+        <SimpleFooter />
+/////////////////////////////////////
+                          onClick={e => e.preventDefault()}
+
+*/

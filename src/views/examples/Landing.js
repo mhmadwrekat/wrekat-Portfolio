@@ -169,10 +169,9 @@ Pictures Of Animals With Killer Headgear ,
                           <Button
                             className="mt-4"
                             color="primary"
-                            href="https://jolly-bartik-0189e9.netlify.app/"
-                            onClick={e => e.preventDefault()}
-                          >
-                            Show
+                            href="https://youthful-hopper-729726.netlify.app/"
+                            target="_blank"
+                          >Show
                           </Button>
                         </CardBody>
                       </Card>
@@ -207,7 +206,7 @@ And Authors To You .
                             className="mt-4"
                             color="success"
                             href="https://our-passion.github.io/library/index"
-                            onClick={e => e.preventDefault()}
+                            target="_blank"
                           >
                             Show
                           </Button>
@@ -244,7 +243,7 @@ Features To Make Things Beauty .
                             className="mt-4"
                             color="warning"
                             href="https://mhmadwrekat.github.io/movie-list/"
-                            onClick={e => e.preventDefault()}
+                            target="_blank"
                           >
                             Show
                           </Button>
@@ -255,6 +254,25 @@ Features To Make Things Beauty .
                 </Col>
               </Row>
             </Container>
+</section>
+<section className="section pb-0 bg-gradient-yellow">
+
+{/* SVG separator */}
+<div className="separator separator-bottom separator-skew zindex-100">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    preserveAspectRatio="none"
+    version="1.1"
+    viewBox="0 0 2560 100"
+    x="0"
+    y="0"
+  >
+    <polygon
+      className="fill-white"
+      points="2560 0 2560 100 0 100"
+    />
+  </svg>
+</div>
 </section>
           <section className="section bg-secondary">
             <Container>
@@ -283,29 +301,25 @@ Features To Make Things Beauty .
                           points="0,42 583,95 683,0 0,95"
                         />
                       </svg>
-                      <h4 className="display-3 font-weight-bold text-white">
-                        Design System
+                      <h4 className="display-3 font-weight-bold text-yellow">
+                        Horned Beasts
                       </h4>
-                      <p className="lead text-italic text-white">
-                        The Arctic Ocean freezes every winter and much of the
-                        sea-ice then thaws every summer, and that process will
-                        continue whatever happens.
-                      </p>
+                      <p className="lead text-italic text-yellow">
+                      Pictures Of Animals With Killer Headgear , Best Horns In The Animal World - The Definitive List .
+</p>
                     </blockquote>
                   </Card>
                 </Col>
-                <Col md="6">
+                <Col md="5">
                   <div className="pl-md-5">
-                    <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
+                    <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
                       <i className="ni ni-settings" />
                     </div>
-                    <h3>Our customers</h3>
+                    <h3>Gallery Of Horns</h3>
                     <p className="lead">
-                      Don't let your uses guess by attaching tooltips and
-                      popoves to any element. Just make sure you enable them
-                      first via JavaScript.
+                    Antlers are a single structure composed of bone, cartilage, fibrous tissue, skin, nerves, and blood vessels .
                     </p>
-                    <p>
+                    {/*<p>
                       The kit comes with three pre-built pages to help you get
                       started faster. You can change the text and images and
                       you're good to go.
@@ -314,20 +328,20 @@ Features To Make Things Beauty .
                       The kit comes with three pre-built pages to help you get
                       started faster. You can change the text and images and
                       you're good to go.
-                    </p>
+                    </p>*/}
                     <a
-                      className="font-weight-bold text-warning mt-5"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
+                      className="font-weight-bold text-success mt-5"
+                      href="https://youthful-hopper-729726.netlify.app/"
+                      target="_blank"
                     >
-                      A beautiful UI Kit for impactful websites
+                      A beautiful Photos and discreption
                     </a>
                   </div>
                 </Col>
               </Row>
             </Container>
           </section>
-          <section className="section pb-0 bg-gradient-warning">
+          <section className="section pb-0 bg-gradient-success">
 
             {/* SVG separator */}
             <div className="separator separator-bottom separator-skew zindex-100">
@@ -347,7 +361,24 @@ Features To Make Things Beauty .
             </div>
           </section>
           <section className="section section-lg">
-            <Container>
+           
+          </section>
+        </main>
+        <CardsFooter />
+      </>
+    );
+  }
+}
+
+export default Landing;
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+/*
+          <Download />
+
+*/
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*
+ <Container>
               <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
                   <h2 className="display-3">The amazing Team</h2>
@@ -372,18 +403,7 @@ Features To Make Things Beauty .
                 
               </Row>
             </Container>
-          </section>
-          <Download />
-        </main>
-        <CardsFooter />
-      </>
-    );
-  }
-}
-
-export default Landing;
-//////////////////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 /*
             <Container>

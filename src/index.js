@@ -28,9 +28,10 @@ import Landing from "views/examples/Landing.js";
 //import Login from "views/examples/Login.js";
 import Profile from "views/examples/Profile.js";
 //import Register from "views/examples/Register.js";
-
+//https://youthful-hopper-729726.netlify.app/
 ReactDOM.render(
   <BrowserRouter>
+
     <Switch>
       <Route
         path="/landing-page"
@@ -49,6 +50,11 @@ ReactDOM.render(
   document.getElementById("root")
 );
 /*
+        <Route
+        path="/landing-page"
+        exact
+        render={props => <Landing {...props} />}
+      />
       <Route path="/profile-page" exact render={props => <Index {...props} />} />
 
 */
