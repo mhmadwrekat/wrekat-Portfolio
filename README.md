@@ -2,7 +2,7 @@
 
 ---
 
-## ***[Live URL .....](https://agitated-poincare-7eb6b0.netlify.app)***
+## **[Live URL .....](https://agitated-poincare-7eb6b0.netlify.app)**
 
 ---
 
